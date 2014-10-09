@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: ChinaCyr;
+    src: url(../fonts/ChinaCyr.ttf);
+}
+
+html {
+    font-family: ChinaCyr;
+}
+
 #topsection {
     background: #000000;
 }
@@ -92,8 +101,9 @@
 }
 
 #menu-right a {
-    color: #999;
+    color: white;
     border: none;
+    font-weight: bold;
     padding: 0.6em 0 0.6em 0.6em;
 }
 
@@ -110,22 +120,9 @@
 
 #menu-right .pure-menu li a:hover,
 #menu-right .pure-menu li a:focus {
-    background: #333;
-}
-
-#menu-right .pure-menu-selected,
-#menu-right .pure-menu-heading {
-    background: #1f8dd6;
-}
-
-#menu-right .pure-menu-selected a {
-    color: #fff;
-}
-
-#menu-right .pure-menu-heading {
-    font-size: 110%;
-    color: #fff;
-    margin: 0;
+    font-weight: bold;
+    background: #000000;
+    color: #e7463d;
 }
 
 #content-right{
