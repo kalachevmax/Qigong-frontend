@@ -77,10 +77,17 @@
     margin: 0;
 }
 
+#content-left {
+    position: fixed;
+    top: 250px;
+    width: 170px;
+}
+
 #menu-right {
     float: left;
     width: 150px;
-    margin-left: -150px;
+    margin-left: -185px;
+    text-align: left;
     background: #000000;
 }
 
@@ -119,4 +126,10 @@
     font-size: 110%;
     color: #fff;
     margin: 0;
+}
+
+#content-right{
+    position: fixed;
+    top: 250px;
+    width: 170px;
 }
