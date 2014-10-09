@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" ng-app="qigong">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Qigong</title>
+
+    <link rel="stylesheet" href="bower_components/pure/pure-min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+<div ng-view></div>
+
+<div id="layout">
+    <div id="topsection">
+        <img id="quote" src="img/quote2.png" alt="quote">
+    </div>
+
+    <div id="main">
+        <div class="content">
+            <img src="img/background.png">
+        </div>
+    </div>
+
+    <div id="menu-left">
+        <img src="img/news.png">
+        <img src="img/news-box.png">
+    </div>
+
+    <div id="menu-right">
+        <div class="pure-menu pure-menu-open">
+            <ul>
+                <li><a href="#main"><img src="img/menu-main.png"></a></li>
+                <li><a href="#seminars"><img src="img/menu-seminars.png"></a></li>
+                <li><a href="#schedule"><img src="img/menu-schedule.png"></a></li>
+                <li><a href="#healing"><img src="img/menu-healing.png"></a></li>
+                <li><a href="#philosophy"><img src="img/menu-philosophy.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
