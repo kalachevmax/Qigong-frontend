@@ -17,7 +17,10 @@ gulp.task('js.app', function() {
 gulp.task('js.vendor', function() {
   var sources = [
       'bower_components/angular/angular.js',
-      'bower_components/angular-ui-router/release/angular-ui-router.js'
+      'bower_components/angular-ui-router/release/angular-ui-router.js',
+      'bower_components/lodash/dist/lodash.js',
+      'bower_components/restangular/dist/restangular.js',
+      'bower_components/ngstorage/ngStorage.js'
   ];
 
   return gulp.src(sources)
