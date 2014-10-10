@@ -4,40 +4,42 @@
     src: url(../fonts/ChinaCyr.ttf);
 }
 
-html {
+html body {
     font-family: ChinaCyr;
-}
-
-#topsection {
     background: #000000;
 }
 
-#topsection {
+#layout {
+    background: #000000;
+}
+
+#header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    background: #000000;
 }
 
 #quote {
     text-align: left;
 }
 
-#main{
+#main-middle {
     float: left;
     width: 100%;
     background: #000000;
 }
 
-.content {
-    margin: 0 150px 0 150px;
+.main-middle-content {
+    margin: 0 150px 20px 150px;
     text-align: center;
 }
 
-.content img {
+.main-middle-content img {
     text-align: left;
 }
 
-#menu-left {
+#main-left {
     float: left;
     width: 150px;
     text-align: right;
@@ -45,42 +47,42 @@ html {
     background: #000000;
 }
 
-#menu-left img {
+#main-left img {
     text-align: left;
 }
 
-#menu-left a {
+#main-left a {
     color: #999;
     border: none;
     padding: 0.6em 0 0.6em 0.6em;
 }
 
- #menu-left .pure-menu,
- #menu-left .pure-menu ul {
+ #main-left .pure-menu,
+ #main-left .pure-menu ul {
     border: none;
     background: transparent;
 }
 
-#menu-left .pure-menu ul,
-#menu-left .pure-menu .menu-item-divided {
+#main-left .pure-menu ul,
+#main-left .pure-menu .menu-item-divided {
     border-top: 1px solid #000000;
 }
 
-#menu-left .pure-menu li a:hover,
-#menu-left .pure-menu li a:focus {
+#main-left .pure-menu li a:hover,
+#main-left .pure-menu li a:focus {
     background: #333;
 }
 
-#menu-left .pure-menu-selected,
-#menu-left .pure-menu-heading {
+#main-left .pure-menu-selected,
+#main-left .pure-menu-heading {
     background: #1f8dd6;
 }
 
-#menu-left .pure-menu-selected a {
+#main-left .pure-menu-selected a {
     color: #fff;
 }
 
-#menu-left .pure-menu-heading {
+#main-left .pure-menu-heading {
     font-size: 110%;
     color: #fff;
     margin: 0;
@@ -92,7 +94,7 @@ html {
     width: 170px;
 }
 
-#menu-right {
+#main-right {
     float: left;
     width: 150px;
     margin-left: -195px;
@@ -100,26 +102,26 @@ html {
     background: #000000;
 }
 
-#menu-right a {
+#main-right a {
     color: white;
     border: none;
     font-weight: bold;
     padding-top: 8px;
 }
 
-#menu-right .pure-menu,
-#menu-right .pure-menu ul {
+#main-right .pure-menu,
+#main-right .pure-menu ul {
     border: none;
     background: transparent;
 }
 
-#menu-right .pure-menu ul,
-#menu-right .pure-menu .menu-item-divided {
+#main-right .pure-menu ul,
+#main-right .pure-menu .menu-item-divided {
     border-top: 1px solid #000000;
 }
 
-#menu-right .pure-menu li a:hover,
-#menu-right .pure-menu li a:focus {
+#main-right .pure-menu li a:hover,
+#main-right .pure-menu li a:focus {
     font-weight: bold;
     background: #000000;
     color: #e7463d;
@@ -142,4 +144,64 @@ html {
 
 .menu-separator {
     margin-left: 20px;
+}
+
+#footer-content {
+    width: 956px;
+    margin: 0 auto;
+}
+
+#footer-middle {
+    float: left;
+    width: 100%;
+    background: #000000;
+}
+
+.footer-middle-content {
+    margin: 20px 150px 20px 350px;
+    text-align: center;
+}
+
+#footer-left {
+    float: left;
+    width: 350px;
+    text-align: left;
+    margin-left: -100%;
+    background: #000000;
+}
+
+#footer-left div {
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#footer-right {
+    float: left;
+    width: 150px;
+    margin-left: -150px;
+    text-align: right;
+    background: #000000;
+}
+
+#footer-right span:first-child {
+    color: #868686;
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+#copyright {
+    font-family: Serif;
+    font-size: 8pt;
+    color: #868686;
+}
+
+#footer-right span:last-child {
+    font-size: 7pt;
+    font-weight: bold;
+    color: white;
+}
+
+.gray-text {
+    color: #868686;
 }
