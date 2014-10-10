@@ -94,6 +94,16 @@ html body {
     width: 170px;
 }
 
+#content-left div {
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#content-left div:first-child {
+    margin-bottom: 30px;
+}
+
 #main-right {
     float: left;
     width: 150px;
