@@ -1,6 +1,6 @@
 
 
-app.constant('AccessLevel', {
+var AccessLevel = {
   PUBLIC: UserRole.ANONYMOUS | UserRole.ADMIN,
   FULL: UserRole.ADMIN
-});
+};

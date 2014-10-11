@@ -1,6 +1,6 @@
 
 
-app.factory('user', function(appConfig, $http, $q, $localStorage) {
+app.factory('userService', function(appConfig, $http, $q, $localStorage) {
   function createAnonymousUser() {
     return {
       authToken: '',
@@ -14,11 +14,17 @@ app.factory('user', function(appConfig, $http, $q, $localStorage) {
   }
 
   function getUser() {
-    return $localStorage.user;
+    return $localStorage.user || null;
   }
 
-  function isAuthorized(accessLevel, role) {
-    return accessLevel & role === role;
+  function isAuthorized(accessLevel) {
+    var user = getUser();
+
+    if (user !== null) {
+      return accessLevel & user.role === user.role;
+    }
+
+    return false;
   }
 
   function login(login, password) {
@@ -57,7 +63,7 @@ app.factory('user', function(appConfig, $http, $q, $localStorage) {
 
   return {
     getUser: getUser,
-    authorize: isAuthorized,
+    isAuthorized: isAuthorized,
     login: login,
     isLoggedIn: isLoggedIn,
     logout: logout

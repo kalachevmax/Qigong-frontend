@@ -11,9 +11,10 @@ gulp.task('js.app', function() {
   var sources = [
     'app/app.js',
     'app/config/config.' + env + '.js',
-    'app/config/routes.js',
+    'app/modules/home/controller.js',
     'app/modules/user/user-role.js',
     'app/modules/user/access-level.js',
+    'app/modules/user/routes.js',
     'app/modules/user/service.js',
     'app/modules/user/controller.js'
   ];
@@ -82,7 +83,7 @@ gulp.task('build', ['clean'], function() {
 });
 
 
-gulp.task('make', ['clean'], function() {
+gulp.task('make', function() {
   gulp.start('js.app', 'styles', 'templates');
 });
 

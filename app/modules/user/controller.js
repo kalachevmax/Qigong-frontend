@@ -1,12 +1,12 @@
 
 
-app.controller('userController', ['$scope', function($scope, user, $state) {
+app.controller('userController', ['$scope', function($scope, userService, $state) {
   $scope.auth = function() {
     $scope.authError = false;
 
-    user.login($scope.login, $scope.password,
+    userService.login($scope.login, $scope.password,
         function() {
-          var route = user.getUser().role == routingConfig.user ? 'admin' : 'home';
+          var route = userService.getUser().role == UserRole.ADMIN ? 'admin' : 'home';
           $state.go(route);
         },
         function() {
