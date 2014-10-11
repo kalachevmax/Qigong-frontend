@@ -13,7 +13,104 @@
 </head>
 <body>
 
-<div ui-view></div>
+<div id="layout">
+    <div id="header">
+        <img id="quote" src="img/quote2.png" alt="quote">
+    </div>
+
+    <div id="main-middle">
+        <div class="main-middle-content">
+            <div ui-view></div>
+        </div>
+    </div>
+
+    <div id="main-left">
+        <div id="content-left">
+            <div>
+                <img src="img/arrow-right.png">
+                <span>НОВОСТИ</span>
+            </div>
+
+            <img src="img/news-box.png">
+        </div>
+    </div>
+
+    <div id="main-right">
+        <div id="content-right">
+            <div class="pure-menu pure-menu-open">
+                <ul>
+                    <li><a href="#login"><img src="img/login.png"></a></li>
+                    <li><a href="#home">ГЛАВНАЯ</a></li>
+                    <li><a href="#seminars">СЕМИНАРЫ</a></li>
+                    <li><a href="#schedule">РАСПИСАНИЕ</a></li>
+                    <li><a href="#healing">ЦЕЛИТЕЛЬСТВО</a></li>
+                    <li><a href="#philosophy">ФИЛОСОФИЯ</a></li>
+                    <li><a href="#travels">ПУТЕШЕСТВИЯ</a></li>
+
+                    <li class="menu-separator"><img src="img/menu-separator.png"></li>
+
+                    <li>
+                        <a class="multiline-link" href="#water">
+                            <span>
+                                ЗАРЯД ВОДЫ<br>
+                                И ТАЛИСМАНОВ
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="multiline-link" href="#tea">
+                            <span>
+                                ЧАЙНЫЕ<br>
+                                ЦЕРЕМОНИИ
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="multiline-link" href="#music">
+                            <span>
+                                МУЗЫКА<br>
+                                ДЛЯ ЗАНЯТИЙ
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="multiline-link" href="#stuff">
+                            <span>
+                                ТЕМАТИЧЕСКИЕ<br>
+                                ПРЕДМЕТЫ
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="menu-separator"><img src="img/menu-separator.png"></li>
+
+                    <li><a href="#about">О ЦЕНТРЕ</a></li>
+                    <li><a href="#feedback">ОБРАТНАЯ СВЯЗЬ</a></li>
+                    <li><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-content">
+            <div id="footer-middle">
+                <div class="footer-middle-content">&nbsp;</div>
+            </div>
+
+            <div id="footer-left">
+                <div>ХУДОЖНИЦА - OLGA <span class="gray-text">GILDHARTT</span> ZORINA</div>
+            </div>
+
+            <div id="footer-right">
+                <span>ИСЦЕЛЯЮЩИЙ ЦИГУН </span><span id="copyright">&reg;</span><span> 2014</span>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
