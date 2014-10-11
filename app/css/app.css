@@ -291,6 +291,30 @@ html body {
     padding-right: 20px;
 }
 
+.page-text-water {
+    color: black;
+    font-family: Gabriola;
+    line-height: 1.2;
+    font-size: 16pt;
+    text-align: justify;
+    max-width: 910px;
+    padding-top: 175px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.page-text-contacts {
+    color: black;
+    font-family: Gabriola;
+    line-height: 1.2;
+    font-size: 16pt;
+    text-align: justify;
+    max-width: 910px;
+    padding-top: 195px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .page-placeholder {
     float: left;
     width: 138px;
@@ -396,4 +420,8 @@ html body {
 
 .contacts-subheader {
     left: 962px;
+}
+
+.page-left-image {
+    float: left;
 }
