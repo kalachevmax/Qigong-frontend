@@ -4,9 +4,19 @@ var gulp = require('gulp'),
     changed = require('gulp-changed'),
     del = require('del');
 
+var env = process.env.NODE_ENV || 'heroku';
+
 
 gulp.task('js.app', function() {
-  var sources = ['app/app.js'];
+  var sources = [
+    'app/app.js',
+    'app/config/config.' + env + '.js',
+    'app/config/routes.js',
+    'app/modules/user/user-role.js',
+    'app/modules/user/access-level.js',
+    'app/modules/user/service.js',
+    'app/modules/user/controller.js'
+  ];
 
   return gulp.src(sources)
       .pipe(concat('app.js'))
