@@ -273,14 +273,6 @@ html body {
     color: white;
 }
 
-.about-header {
-    left: 960px;
-}
-
-.about-subheader {
-    left: 967px;
-}
-
 .page-content {
     position: absolute;
     left: 200px;
@@ -308,4 +300,100 @@ html body {
 .page-img-box  {
     width: 100%;
     text-align: center;
+}
+
+.about-header {
+    left: 960px;
+}
+
+.about-subheader {
+    left: 967px;
+}
+
+.seminars-header {
+    left: 935px;
+}
+
+.seminars-subheader {
+    left: 961px;
+}
+
+.schedule-header {
+    left: 900px;
+}
+
+.schedule-subheader {
+    left: 954px;
+}
+
+.healing-header {
+    left: 875px;
+}
+
+.healing-subheader {
+    left: 947px;
+}
+
+.philosophy-header {
+    left: 940px;
+}
+
+.philosophy-subheader {
+    left: 967px;
+}
+
+.travels-header {
+    left: 885px;
+}
+
+.travels-subheader {
+    left: 952px;
+}
+
+.water-header {
+    left: 630px;
+}
+
+.water-subheader {
+    left: 880px;
+}
+
+.tea-header {
+    left: 770px;
+}
+
+.tea-subheader {
+    left: 918px;
+}
+
+.music-header {
+    left: 730px;
+}
+
+.music-subheader {
+    left: 908px;
+}
+
+.stuff-header {
+    left: 645px;
+}
+
+.stuff-subheader {
+    left: 885px;
+}
+
+.feedback-header {
+    left: 850px;
+}
+
+.feedback-subheader {
+    left: 940px;
+}
+
+.contacts-header {
+    left: 945px;
+}
+
+.contacts-subheader {
+    left: 962px;
 }
