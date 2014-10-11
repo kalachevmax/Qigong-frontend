@@ -4,6 +4,11 @@
     src: url(../fonts/ChinaCyr.ttf);
 }
 
+@font-face {
+    font-family: Gabriola;
+    src: url(../fonts/Gabriola.ttf);
+}
+
 html body {
     font-family: ChinaCyr;
     background: #000000;
@@ -224,4 +229,83 @@ html body {
 
 .gray-text {
     color: #868686;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+.red-text {
+    color: #e7463d;
+}
+
+.page-header {
+    position: absolute;
+    top: 130px;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.page-header span:first-child {
+    color: black;
+}
+
+.page-header span:last-child {
+    color: white;
+}
+
+.page-subheader {
+    position: absolute;
+    top: 182px;
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.page-subheader span:first-child {
+    color: black;
+}
+
+.page-subheader span:last-child {
+    color: white;
+}
+
+.about-header {
+    left: 960px;
+}
+
+.about-subheader {
+    left: 967px;
+}
+
+.page-content {
+    position: absolute;
+    left: 200px;
+    top: 82px;
+}
+
+.page-text {
+    color: black;
+    font-family: Gabriola;
+    line-height: 1.2;
+    font-size: 16pt;
+    text-align: justify;
+    max-width: 910px;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-placeholder {
+    float: left;
+    width: 138px;
+    height: 160px;
+}
+
+.page-img-box  {
+    width: 100%;
+    text-align: center;
 }
