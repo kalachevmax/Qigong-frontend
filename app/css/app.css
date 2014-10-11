@@ -125,7 +125,7 @@ html body {
     color: white;
     border: none;
     font-weight: bold;
-    padding-top: 8px;
+    padding-top: 6px;
 }
 
 #main-right .pure-menu,
@@ -163,6 +163,7 @@ html body {
 
 .menu-separator {
     margin-left: 20px;
+    margin-top: 0;
 }
 
 #footer-content {
