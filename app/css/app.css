@@ -19,14 +19,20 @@ html body {
 }
 
 #header {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #000000;
 }
 
 #quote {
-    text-align: left;
+    color: white;
+    font-family: ChinaCyr;
+    line-height: 1.5;
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 #main-middle {
